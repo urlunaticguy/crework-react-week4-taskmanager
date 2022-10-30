@@ -43,10 +43,10 @@ function ToDo(props) {
           <div className=' flex py-2 gap-2 mb-2 items-center w-[100%]' key={index}>
             <div onClick={() => {sendTaskToDone(taskObject, index)}} 
                   className=' cursor-pointer'>
-              <svg className=' z-10 absolute w-[1.3rem] mt-[-2%] fill-yellow-500 border-[2.5px] border-white rounded-full hover:hidden' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <svg className=' z-10 absolute w-[1.3rem] mt-[-0.7rem] fill-yellow-500 border-[2.5px] border-white rounded-full hover:hidden' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512z"/>
               </svg>
-              <svg className=' z-0 absolute w-[1.3rem] mt-[-2%] fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <svg className=' z-0 absolute w-[1.3rem] mt-[-0.7rem] fill-white' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
               </svg>
             </div>
