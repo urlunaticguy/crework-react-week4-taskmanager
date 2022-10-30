@@ -31,7 +31,7 @@ function ToDo(props) {
   }
   
   return (
-    <div className=' backdrop-blur-md w-[30vw] h-[65vh] bg-[#0C1E2D]/10 text-yellow-400 border-4 border-white rounded-lg py-4 px-8'>
+    <div className=' backdrop-blur-md w-[32vw] h-[65vh] bg-[#0C1E2D]/10 text-yellow-400 border-4 border-white rounded-lg py-4 px-8'>
       {tasksRemaining.length === 0 && 
         <h1 className=" text-[1.8rem]">You have no tasks remaining.</h1>
       }

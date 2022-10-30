@@ -23,7 +23,7 @@ function Done(props) {
   }
   
   return (
-    <div className=' text-yellow-400 backdrop-blur-md bg-[#0C1E2D]/10 w-[30vw] h-[65vh] border-4 border-white rounded-lg py-4 px-8'>
+    <div className=' text-yellow-400 backdrop-blur-md bg-[#0C1E2D]/10 w-[32vw] h-[65vh] border-4 border-white rounded-lg py-4 px-8'>
       {tD.length === 0 && 
         <h1 className=' text-[1.8rem]'>You have no tasks completed.</h1>
       }

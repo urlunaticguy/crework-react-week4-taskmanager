@@ -28,9 +28,9 @@ function App() {
 
   useEffect(() => {
     setnotificationState(notifType)
-    if (counterForNotification > 1) {
+    if (counterForNotification > 0) {
       const notification = ref.current
-      notification.className = "font-semibold bg-gray-300 absolute bottom-[5%] right-[15%] w-[27rem] h-[3rem] text-center items-center flex justify-center text-[1.2rem] rounded-lg"
+      notification.className = "font-semibold bg-gray-300 absolute bottom-[2.5rem] right-[3rem] w-[27rem] h-[3rem] text-center items-center flex justify-center text-[1.2rem] rounded-lg"
       setTimeout(() => {
         notification.className = "hidden"
       }, 1500);
